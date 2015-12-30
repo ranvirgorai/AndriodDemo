@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bCameraTxt"
+        android:id="@+id/bCamera"
+        android:layout_marginTop="57dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgvi"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:src="#4fff38" />
+
+    <TextView
+        android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:text="First Activity"
+        android:id="@+id/textView"
+        android:layout_weight="0.06"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/imgvi"
+        android:layout_alignLeft="@+id/bCamera"
+        android:layout_alignStart="@+id/bCamera"
+        android:layout_marginTop="74dp" />
+</RelativeLayout>
